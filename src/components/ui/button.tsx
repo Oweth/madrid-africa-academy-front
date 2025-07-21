@@ -18,6 +18,11 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Real Madrid themed variants
+        madrid: "bg-gradient-hero text-madrid-white hover:shadow-elegant transition-all duration-300",
+        madridOutline: "border-2 border-madrid-blue text-madrid-blue bg-transparent hover:bg-madrid-blue hover:text-madrid-white",
+        madridGold: "bg-gradient-accent text-madrid-navy hover:shadow-elegant font-semibold",
+        madridWhite: "bg-madrid-white text-madrid-navy border border-madrid-blue/20 hover:bg-madrid-blue hover:text-madrid-white shadow-card",
       },
       size: {
         default: "h-10 px-4 py-2",
