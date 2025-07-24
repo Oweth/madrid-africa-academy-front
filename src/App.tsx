@@ -24,7 +24,7 @@ const App = () => (
           <Route path="/requirements" element={<Requirements />} />
           <Route path="/training" element={<Training />} />
           <Route path="/benefits" element={<Benefits />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          {/* Any route will be added here */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

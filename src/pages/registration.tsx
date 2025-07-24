@@ -55,7 +55,7 @@ const Registration = () => {
                 variant="madridWhite"
                 size="lg"
                 className="text-lg px-8 py-4"
-                onClick={() => window.open("https://wa.me/27721234567", "_blank")}
+                onClick={() => window.open("https://wa.me/27716447639", "_blank")}
                 >
                 WhatsApp Now
             </Button>
