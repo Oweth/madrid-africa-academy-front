@@ -5,15 +5,15 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, TrainFront, Trophy } from "lucide-react";
 import heroImage from "@/assets/2025RealAcademy.jpg";
 import logoImage from "@/assets/logoRealMadrid.png";
-import leaderImage from "@/assets/leader.jpg";
-import attackerImage from "@/assets/attacker.jpg";
-import discussImage from "@/assets/discuss.jpg";
-import duelImage from "@/assets/duel.jpg";
-import goalKeeperImage from "@/assets/goalkeeper.jpg";
+import leaderImage from "@/assets/Leader.jpg";
+import attackerImage from "@/assets/Attacker.jpg";
+import discussImage from "@/assets/Discuss.jpg";
+import duelImage from "@/assets/Duel.jpg";
+import goalKeeperImage from "@/assets/GoalKeeper.jpg";
 import skeemImage from "@/assets/skeem.jpg";
 import kidsImage from "@/assets/kids.jpg";
-import winningImage from "@/assets/winning.jpg";
-import attackingImage from "@/assets/attacking.jpg";
+import winningImage from "@/assets/Winning.jpg";
+import attackingImage from "@/assets/Attacking.jpg";
 
 const Index = () => {
   const navigate = useNavigate();
