@@ -5,6 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // Add base path for GitHub Pages (replace 'your-repo-name' with your actual repository name)
+  base: '/madrid-africa-academy-front/',
   server: {
     host: "::",
     port: 8080,
@@ -18,5 +20,11 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  // Add build configuration for better GitHub Pages compatibility
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false,
   },
 }));
