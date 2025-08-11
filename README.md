@@ -2,6 +2,10 @@
 
 This project was created by Owethu Xulu, who is a student at Wits.
 
+Find the deployed site below
+
+https://oweth.github.io/madrid-africa-academy-front/
+
 ## Project Info
 
 This is the frontend for the Madrid Africa Academy website.
